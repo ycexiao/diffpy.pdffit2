@@ -6,7 +6,7 @@ on:
 
 jobs:
   tests-on-pr:
-    uses: scikit-package/release-scripts/.github/workflows/_tests-on-pr.yml@v0
+    uses: ycexiao/release-scripts/.github/workflows/_tests-on-pr.yml@rename-python-version
     with:
       project: diffpy.pdffit2
       c_extension: true
