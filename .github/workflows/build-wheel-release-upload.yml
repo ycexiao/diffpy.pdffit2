@@ -3,9 +3,6 @@ name: Release (GitHub/PyPI) and Deploy Docs
 on:
   push:
 
-
-
-
 jobs:
   build-release:
     uses: ycexiao/release-scripts/.github/workflows/_build-wheel-release-upload.yml@main
@@ -13,5 +10,3 @@ jobs:
       project: diffpy.pdffit2
       c_extension: true
       maintainer_GITHUB_username: ycexiao
-
-
