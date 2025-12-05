@@ -5,7 +5,7 @@ on:
 
 jobs:
   build-release:
-    uses: ycexiao/release-scripts/.github/workflows/_build-wheel-release-upload.yml@main
+    uses: ycexiao/release-scripts/.github/workflows/_build-wheel-release-upload.yml@test-workflow
     with:
       project: diffpy.pdffit2
       c_extension: true
