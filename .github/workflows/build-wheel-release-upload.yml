@@ -1,6 +1,7 @@
 name: Release (GitHub/PyPI) and Deploy Docs
 
 on:
+  workflow_dispatch:
   push:
 
 jobs:
