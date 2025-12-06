@@ -8,7 +8,7 @@ on:
 
 jobs:
   build-release:
-    uses: ycexiao/release-scripts/.github/workflows/_build-wheel-release-upload.yml@rename-python-version
+    uses: ycexiao/release-scripts/.github/workflows/_build-wheel-release-upload.yml@test-rename-python-version
     with:
       project: diffpy.pdffit2
       c_extension: true
